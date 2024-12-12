@@ -1,0 +1,111 @@
+{
+    "description": "项目配置文件。",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "enhance": true,
+        "postcss": false,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": true,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "lazyloadPlaceholderEnable": false,
+        "useMultiFrameRuntime": true,
+        "useApiHook": true,
+        "useApiHostProcess": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "useIsolateContext": false,
+        "userConfirmedBundleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true,
+        "disableUseStrict": false,
+        "minifyWXML": true,
+        "showES6CompileOption": false,
+        "useCompilerPlugins": false,
+        "ignoreUploadUnusedFiles": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "",
+    "appid": "wx7ec065065b4cde18",
+    "projectname": "mp-weixin-customer-1",
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 2
+    },
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {
+        "search": {
+            "list": []
+        },
+        "conversation": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "测试页-首页",
+                    "id": 0,
+                    "pathName": "pages/index/index"
+                },
+                {
+                    "name": "测试页-优惠券",
+                    "query": "",
+                    "id": 1,
+                    "pathName": "pages/coupon/coupon"
+                },
+                {
+                    "name": "测试页-个人中心",
+                    "id": 2,
+                    "pathName": "pages/userCenter/userCenter"
+                },
+                {
+                    "name": "测试页-确认订单",
+                    "id": 3,
+                    "pathName": "pages/creatOrder/creatOrder"
+                },
+                {
+                    "name": "测试页-订单列表",
+                    "id": 4,
+                    "pathName": "pages/orderList/orderList"
+                },
+                {
+                    "name": "测试页-订单详情",
+                    "id": 5,
+                    "pathName": "pages/orderDetail/orderDetail"
+                },
+                {
+                    "name": "测试页-登陆",
+                    "id": 6,
+                    "pathName": "pages/login/login"
+                },
+                {
+                    "name": "测试页-支付成功",
+                    "id": 7,
+                    "pathName": "pages/paySuccess/paySuccess"
+                }
+            ]
+        }
+    }
+}
